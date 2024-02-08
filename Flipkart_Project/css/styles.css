@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-main {
+body {
     background-color: #f4f4f4;
 }
 :root {
@@ -40,12 +40,21 @@ nav ul {
     width: 100px;
     padding: 0 20px;
 }
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider img {
+    width: 80vw;
+}
 .search{
     display: flex;
     align-items: center;
 }
 .search input {
-    width: 350px;
+    width: 30vw;
     height: 27px;
     border-radius: 5px;
     margin: 0 15px 0 56px;
@@ -57,15 +66,7 @@ nav ul {
     padding: 7px 12px;
     color: white;
 }
-.slider{
-    margin: auto;
-    width: 80vw;
-    margin: 12px auto;
-    overflow: hidden;
-}
-.slider img {
-    width: 80vw;
-}
+
 .container {
     min-height: calc(100vh - 60px - 12vh);
 }
