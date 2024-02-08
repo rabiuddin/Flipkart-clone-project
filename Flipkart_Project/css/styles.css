@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
 }
+main {
+    background-color: #f4f4f4;
+}
 :root {
     --main-bg-color: white;
 }
 header {
     height: 60px;
     background-color: var(--main-bg-color);
-    border: 2px solid red;
 }
 nav {
     display: flex;
@@ -20,6 +22,9 @@ nav ul li {
 nav ul li a{
     color: black;
     text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
 }
 nav ul {
     height: 60px;
@@ -34,6 +39,66 @@ nav ul {
 .logo img {
     width: 100px;
     padding: 0 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input {
+    width: 350px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 15px 0 56px;
+    padding: 0 12px;
+}
+.btn:hover {
+    background-color: #1d74bb;
+    border: 2px solid white;
+    padding: 7px 12px;
+    color: white;
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider img {
+    width: 80vw;
+}
+.container {
+    min-height: calc(100vh - 60px - 12vh);
+}
+.card {
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.cards {
+    display: flex;
+    /* justify-content: center; */
+
+}
+.card h2 {
+    margin: 20px 0 10px 20px;
+    padding: 10px 0 0 0 ;
+}
+.card-item {
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 12vw;
+    margin-left: 10px;
+    justify-content: center;
+    border: 2px solid #f4f4f4;
+    border-radius: 5px;
+}
+.card-item:hover {
+    width: 15vw;
 }
 footer {
     height: 12vh;

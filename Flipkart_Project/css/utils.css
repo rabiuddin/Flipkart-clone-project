@@ -7,4 +7,37 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+.btn {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #1d74bb;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-1 {
+    margin: 5px 0;
+}
+
+.my-2 {
+    margin: 26px 0;
+}
+
+.image img{
+    width: 100%;
+}
+
+.card-item:hover {
+    animation: image_change;
+}
+
+@keyframe image_change {
+    .image img {
+        width: 100%;
+    }
+}
