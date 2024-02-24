@@ -83,6 +83,7 @@ nav ul {
     display: flex;
     /* justify-content: center; */
 
+
 }
 .card h2 {
     margin: 20px 0 10px 20px;
@@ -97,9 +98,11 @@ nav ul {
     justify-content: center;
     border: 2px solid #f4f4f4;
     border-radius: 5px;
+    transition: 0.2s all;
 }
 .card-item:hover {
-    width: 15vw;
+    /* width: 15vw; */
+    transform: scale(1.05);
 }
 footer {
     height: 12vh;
